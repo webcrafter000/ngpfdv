@@ -30,3 +30,11 @@ app.include_router(error.router, prefix="/api", tags=["error"])
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "message": "Wind Forecast Decision Support Portal API",
+        "docs": "/docs"
+    }
