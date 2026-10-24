@@ -38,7 +38,7 @@ See `.env.example` for environment variable configuration options.
 Note: Backend was deployed on Render rather than Heroku because Heroku 
 discontinued its free tier and entered sustaining-engineering mode in 
 2026. Render provides equivalent Docker-based deployment and a managed 
-Postgres database, satisfying the assignment's deployment requirement.
+Postgres database, satisfying the  deployment requirement.
 
 ## AI-Assisted Development Disclosure
 
