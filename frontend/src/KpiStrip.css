@@ -1,0 +1,20 @@
+ .kpi-strip {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+.kpi-item {
+  background: #f5f5f5;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  min-width: 120px;
+}
+.kpi-label {
+  font-size: 0.85rem;
+  color: #555;
+}
+.kpi-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
