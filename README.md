@@ -31,8 +31,14 @@ See `.env.example` for environment variable configuration options.
 
 ## Live Deployment
 
-- Frontend (Vercel): <TO BE FILLED AFTER DEPLOY>
-- Backend (Railway): <TO BE FILLED AFTER DEPLOY>
+- **Frontend (Vercel):** https://ngpfdv.vercel.app
+- **Backend (Render):** https://ngpfdv.onrender.com
+- **Database:** Render Postgres (managed)
+
+Note: Backend was deployed on Render rather than Heroku because Heroku 
+discontinued its free tier and entered sustaining-engineering mode in 
+2026. Render provides equivalent Docker-based deployment and a managed 
+Postgres database, satisfying the assignment's deployment requirement.
 
 ## AI-Assisted Development Disclosure
 
